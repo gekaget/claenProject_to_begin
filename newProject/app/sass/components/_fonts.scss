@@ -1,0 +1,18 @@
+//adding fonts
+// Opensans-Regular
+
+@font-face {
+  @include add-font('roboto-regular', 'roboto-regular');
+}
+
+@font-face {
+  @include add-font('robotocondensed-regular', 'robotocondensed-regular');
+}
+
+@font-face {
+  @include add-font('robotocondensed-bold', 'robotocondensed-bold');
+}
+
+@font-face {
+  @include add-font('icomoon', 'icomoon'); 
+}

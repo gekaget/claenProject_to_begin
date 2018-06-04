@@ -1,0 +1,86 @@
+//image max-width
+.mw-100 {
+  max-width: 100%;
+  height: auto;
+}
+
+//text align
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+//list
+.ul-unstyled {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+//container
+.container {
+  max-width: 1560px;
+  margin: 0 auto; 
+}
+
+.container.h100 {
+  height: 100%;
+}
+
+.container-fluid.no-gutters {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.container.no-gutters {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+//rows
+.row.no-gutters {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.row.h100 {
+   height: 100%;
+}
+
+//col
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+   margin-right: 0;
+   margin-left: 0;
+}
+
+.row .d-flex {
+  display: inline-flex;
+}
+
+div[class^="col-"],
+div[class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.row .h-100 {
+  height: 100%;
+}
